@@ -167,6 +167,11 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
+a.navbar-brand
+{
+    size: 10rem;
+}
+
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
@@ -271,6 +276,9 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.voffset-lg blockquote p{
+    font-size: large;
+}
 
 .row-no-gutters {
     margin-right: 0;
@@ -292,23 +300,29 @@ a:hover {
     z-index: 1;
 }
 
+ul.navbar-nav a
+{
+    font-size: large;
+    font-weight: 600;
+}
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
+    font-weight: large;
     font-weight: 600;
     line-height: 44px;
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 70px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 800px;
 }
 
 .nav-center .navbar-brand img {
@@ -701,7 +715,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 40px auto auto auto;
 }
 
 h2 {
@@ -737,6 +751,8 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: large;
+    margin-top: 40px;
 }
 
 .portfolio-thumb {
@@ -774,13 +790,21 @@ h4 {
     background-color: #F3976C;
 }
 
+.tc-white-title
+{
+    color: #FFFFFF!important;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    font-size: 3rem;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,6 +847,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+blockquote
+{
+    font-size: large;
 }
 
 @media (max-width: 1024px) {
