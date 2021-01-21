@@ -573,6 +573,15 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
+.quote
+{
+    font-size: 2.2rem;
+}
+
+.text-center
+{
+    font-size: 1.5rem;
+}
 
 #lightbox-modal {
     display: flex;
@@ -688,6 +697,11 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
+}
+
+div.col-sm-6 p
+{
+    font-size: 2rem;
 }
 
 p {
@@ -846,7 +860,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 blockquote
