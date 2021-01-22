@@ -580,8 +580,9 @@ a[data-lightbox]:hover img {
 
 .text-center
 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
+
 
 #lightbox-modal {
     display: flex;
@@ -701,7 +702,7 @@ a {
 
 div.col-sm-6 p
 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 p {
@@ -740,7 +741,7 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     color: #333333!important;
 }
 
@@ -755,6 +756,9 @@ h1 {
 }
 
 h4 {
+    font-size: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #333333!important;
 }
 
@@ -765,6 +769,12 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: large;
+    margin-top: 40px;
+}
+
+.black {
+    color: #000000!important;
     font-size: large;
     margin-top: 40px;
 }
@@ -867,6 +877,7 @@ blockquote
 {
     font-size: large;
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
