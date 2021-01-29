@@ -877,7 +877,14 @@ blockquote
 {
     font-size: large;
 }
-
+.col-sm-13 h2
+{
+    color: black!important;
+}
+.col-sm-13 h1
+{
+    color: black!important;
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1087,10 +1094,32 @@ blockquote
         padding-left: 0;
         padding-right: 0;
     }
+    .social
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .col-sm-6 a
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .col-sm-6 a
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
